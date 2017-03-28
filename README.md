@@ -36,10 +36,28 @@ fiken = Agaon::Client.new( username, password, company_href )
 
 ### Endpoints
 
+Who Am I?:
+```ruby
+fiken.who_am_i
+```
+Return the user based on credentials on the Agaon Client.
+
+Current company:
+```ruby
+fiken.current_company
+```
+Returns company based on set company_href on the Agaon Client.
+
 #### Companies
 
-fiken.companies
+List:
 ```ruby
+fiken.companies
+```
+
+Get:
+```ruby
+fiken.get_company(company_href)
 ```
 
 #### Accounts, Bank Accounts, Contacts, Products, Invoices, Sales
