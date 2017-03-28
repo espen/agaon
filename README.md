@@ -42,7 +42,7 @@ fiken = Agaon::Client.new( username, password, company_href )
 companies = fiken.companies
 ```
 
-#### Sales, Contacts, Accounts, Invoices
+#### Accounts, Bank Accounts, Contacts, Products, Invoices, Sales
 
 Using examples for the contacts endpoint.
 
